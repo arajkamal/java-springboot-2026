@@ -5,6 +5,7 @@ public class leetcode141LinkedListCycle {
         Solution sol = new Solution();
         ListNode s1 = new ListNode(2);
         ListNode s2 = new ListNode(6);
+        ListNode s3 = new ListNode(4);
         System.out.println("---hascycle--"+ sol.hasCycle(s2));
     }
 }
