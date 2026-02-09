@@ -2,7 +2,10 @@ package src.linkedList;
 
 public class leetcode141LinkedListCycle {
     public static void main(String[] args) {
-        System.out.println("rajkamal");
+        Solution sol = new Solution();
+        ListNode s1 = new ListNode(2);
+        ListNode s2 = new ListNode(6);
+        System.out.println("---hascycle--"+ sol.hasCycle(s2));
     }
 }
 
