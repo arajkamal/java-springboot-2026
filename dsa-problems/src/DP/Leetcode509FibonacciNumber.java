@@ -5,7 +5,7 @@ public class Leetcode509FibonacciNumber {
         Solution sol = new Solution();
         int[] inputs = {0,1,2,3,4,5,6,7};
         for (int n: inputs){
-           System.out.println("F(" + n + ") = " + sol.fib(n));
+           System.out.println("Fib(" + n + ") = " + sol.fib(n));
         }
     }
 }
